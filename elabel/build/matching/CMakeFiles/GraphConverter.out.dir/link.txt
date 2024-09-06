@@ -1,1 +1,0 @@
-/usr/bin/c++  -std=c++14 -O3 -g -Wall -march=native -pthread -rdynamic CMakeFiles/GraphConverter.out.dir/GraphConverter.cpp.o -o GraphConverter.out  -Wl,-rpath,/Yujie_Lu/subgraph/survey24/survey_24/revision/elabel/build/graph:/Yujie_Lu/subgraph/survey24/survey_24/revision/elabel/build/utility ../graph/libgraph.so ../utility/libutility.so 
