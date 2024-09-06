@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++14 -O3 -g -Wall -march=native -pthread -shared -Wl,-soname,libnd.so -o libnd.so CMakeFiles/nd.dir/bucket.cpp.o CMakeFiles/nd.dir/hierarchy.cpp.o CMakeFiles/nd.dir/k3-4.cpp.o CMakeFiles/nd.dir/kcore.cpp.o CMakeFiles/nd.dir/ktruss.cpp.o CMakeFiles/nd.dir/util.cpp.o CMakeFiles/nd.dir/nd_interface.cpp.o 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++14 -O3 -g -Wall -march=native -pthread -rdynamic CMakeFiles/SelectEdge.dir/SelectEdge.cpp.o -o SelectEdge 
