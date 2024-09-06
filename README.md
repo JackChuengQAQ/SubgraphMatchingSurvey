@@ -37,7 +37,7 @@ The `vlabel` directory contains the foundational implementation for all evaluate
 
 The `elabel` directory supports edge-labeled graphs with the same algorithms. To enable this feature, we incorporate the `ELABELED_GRAPH` macro definition as a switch within the configuration.
 
-## Upcoming Merge
+### Upcoming Merge
 
 In the future, the `vlabel` and `elabel` branches will be merged to unify their functionalities. 
 
@@ -71,7 +71,7 @@ For detailed parameter settings, see `matching/matchingcommand.h`.
 ./SubgraphMatching.out -d ../../test/sample_dataset/test_case_1.graph -q ../../test/sample_dataset/query1_positive.graph -filter GQL -order GQL -engine LFTJ -num MAX
 ```
 
-***Example2*** (Use the filtering method CaLiG to generate the candidate vertex sets, ordering method of RI to generate the matching order,  KSS engine to enumerate the results with automorphic graphs detection):
+**Example2**: (Use the filtering method CaLiG to generate the candidate vertex sets, ordering method of RI to generate the matching order,  KSS engine to enumerate the results with automorphic graphs detection):
 
 ```zsh
 ./SubgraphMatching.out -d ../../test/sample_dataset/test_case_1.graph -q ../../test/sample_dataset/query1_positive.graph -filter CaLiG -order RI -engine KSS -num MAX -symmetry 1
